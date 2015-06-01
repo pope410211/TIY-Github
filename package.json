@@ -1,0 +1,19 @@
+{
+  "name": "TIY-Github",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pope410211/TIY-Github.git"
+  },
+  "author": "Nick Pope (pope410211)",
+  "license": "CCO",
+  "bugs": {
+    "url": "https://github.com/pope410211/TIY-Github/issues"
+  },
+  "homepage": "https://github.com/pope410211/TIY-Github"
+}
