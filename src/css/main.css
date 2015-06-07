@@ -107,11 +107,13 @@ text-align: center;
 ul {
   margin:0;
   padding: 0;
+}
 
+.mobile-navbar{
+  clear: both;
 }
 #mobileT1 {
   margin: 2em 2em auto 1em;
-
 }
 #mobileT1 li{
   text-align: center;
