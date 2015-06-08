@@ -118,7 +118,7 @@ font-size: 25px;
   border: .15em solid lightgrey;
   width:  50%;
   color: cornflowerblue;
-  /*padding: .5ex 0em .5ex 0em;*/
+  padding: .5ex 0em .5ex 0em;
 }
 
 #mobileT1 .selected1 {
@@ -126,7 +126,7 @@ border-bottom: none;
 border-left: none;
 border-right: none;
 border-top: .25em solid orange;
-color:grey;
+color:black;
 
 }
 

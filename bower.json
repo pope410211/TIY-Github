@@ -12,5 +12,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jQuery": "~2.1.4",
+    "lodash": "~3.9.3",
+    "pure": "~0.6.0",
+    "octicons": "*"
+  }
 }
