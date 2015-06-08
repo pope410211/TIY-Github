@@ -110,7 +110,7 @@ ul {
 }
 
 .mobile-navbar{
-  clear: both;
+
 }
 #mobileT1 {
   margin: 2em 2em auto 1em;
@@ -133,6 +133,18 @@ border-bottom: none;
 border-top: .25em solid orange;
 color:grey;
 
+}
+
+.img-mobile {
+  float: left;
+}
+
+.mobile-info {
+  list-style: none;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 
