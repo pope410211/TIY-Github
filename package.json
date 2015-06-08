@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "browser-sync start --server --files='src/js/*.js,src/test/index.html,src/test/spec/**/*.js' --startPath src/test/index.html",
-    "start": "browser-sync start --server --files='index.html, css/*.css, js/*.js' --startPath src/index.html"
+    "start": "browser-sync start --server --files='index.html, css/*.css, js/*.js' --startPath src/index.html",
+    "bower:install":"bower install --save",
+    "postbower:install":"wiredep --src src/index.html",
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/pope410211/TIY-Github/issues"
   },
-  "homepage": "https://github.com/pope410211/TIY-Github"
+  "homepage": "https://github.com/pope410211/TIY-Github",
+  "devDependencies": {
+    "wiredep": "^2.2.2"
+  }
 }
