@@ -105,7 +105,7 @@ text-align: center;
   min-width: 500em;
 }*/
 ul {
-  margin:0;
+  margin:0 1em 0 1em;
   padding: 0;
 }
 
@@ -130,7 +130,10 @@ ul {
 
 #mobileT1 .selected1 {
 border-bottom: none;
+border-left: none;
+border-right: none;
 border-top: .25em solid orange;
+
 color:grey;
 
 }
