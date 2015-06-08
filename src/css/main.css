@@ -99,33 +99,26 @@ textarea {
 
 body {
 font-size: 25px;
-text-align: center;
-}
-/*.container #mobileN1{
-  min-width: 500em;
-}*/
-ul {
-  margin:0 1em 0 1em;
-  padding: 0;
-}
-
-.mobile-navbar{
 
 }
+
 #mobileT1 {
-  margin: 2em 2em auto 1em;
+  margin:1em auto; /*css tricks*/
 }
+
+
 #mobileT1 li{
   text-align: center;
+  display: table-cell;
   float: left;
   list-style: none;
   display: block;
   font-size: .75em;
   box-sizing: border-box;
   border: .15em solid lightgrey;
-  width: 750;
+  width:  50%;
   color: cornflowerblue;
-  padding: .5ex 1em .5ex 1em;
+  /*padding: .5ex 0em .5ex 0em;*/
 }
 
 #mobileT1 .selected1 {
@@ -133,17 +126,25 @@ border-bottom: none;
 border-left: none;
 border-right: none;
 border-top: .25em solid orange;
-
 color:grey;
 
 }
 
 .img-mobile {
-  float: left;
+margin: auto;
 }
 
 .mobile-info {
   list-style: none;
+  font-size: 1.5ex;
+}
+
+#tiTle-1 {
+  font-size: 5ex;
+}
+
+#tiTle-2 {
+  font-size: 2.25ex;
 }
 
 a:hover {
