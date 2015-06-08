@@ -97,7 +97,41 @@ textarea {
 
 
 
+body {
+font-size: 25px;
+text-align: center;
+}
+/*.container #mobileN1{
+  min-width: 500em;
+}*/
+ul {
+  margin:0;
+  padding: 0;
 
+}
+#mobileT1 {
+  margin: 2em 2em auto 1em;
+
+}
+#mobileT1 li{
+  text-align: center;
+  float: left;
+  list-style: none;
+  display: block;
+  font-size: .75em;
+  box-sizing: border-box;
+  border: .15em solid lightgrey;
+  width: 750;
+  color: cornflowerblue;
+  padding: .5ex 1em .5ex 1em;
+}
+
+#mobileT1 .selected1 {
+border-bottom: none;
+border-top: .25em solid orange;
+color:grey;
+
+}
 
 
 
