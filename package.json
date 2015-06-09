@@ -8,7 +8,6 @@
     "start": "browser-sync start --server --files='index.html, css/*.css, js/*.js' --startPath src/index.html",
     "bower:install": "bower install --save",
     "postbower:install": "wiredep --src src/index.html"
-
   },
   "repository": {
     "type": "git",
