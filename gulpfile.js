@@ -4,9 +4,13 @@ var gulp = require('gulp')
 var sass = require('gulp-sass')
 
 gulp.task('styles', function() {
-    gulp.src('./src/**/*.scss')
+    gulp.src('./src/css/**/*.scss')
         .pipe(sass({
             errLogToConsole: true
         }))
-        .pipe(gulp.dest('./css'));
+        .pipe(gulp.dest('src/css/'));
+});
+// Watch
+gulp.task('default',function() {
+    gulp.watch('./src/css/**/*.scss',['styles']);
 });
