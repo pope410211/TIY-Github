@@ -8,7 +8,7 @@
     "start": "browser-sync start --server --files='index.html, css/*.css, js/*.js' --startPath src/index.html",
     "bower:install": "bower install --save",
     "postbower:install": "wiredep --src src/index.html",
-    "node:sass": "node-sass -w src/css/custom.scss src/css/main.css"
+    "node:sass": "node-sass src/css/custom.scss src/css/main.css"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/pope410211/TIY-Github",
   "devDependencies": {
+    "gulp": "^3.9.0",
     "gulp-sass": "^2.0.1",
     "node-sass": "^3.1.2"
   }
