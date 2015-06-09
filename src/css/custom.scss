@@ -2,13 +2,15 @@ body {
 font-size: 25px;
 padding: 0;
 margin: 0;
-
-background: black;
+max-width: 740px;
+// background: red;
 
 }
 
 #mobileT1 {
 margin: 1em auto;
+
+
 
  li{
   text-align: center;
@@ -57,7 +59,11 @@ a:hover {
   .writ li{
     list-style: none;
     padding-left: 2ex;
+  }
 
+  a{
+    text-decoration: none;
+    color: blue;
   }
 
 #tiTle-1 {
@@ -74,24 +80,36 @@ a:hover {
   margin: auto 1em auto 1em;
   background-color: #F9F9F9;
   border: .25ex solid lightgrey;
-  margin: auto;
+  margin: 0em 0em 0em 0em;
 
   .clicky {
     text-align: center;
     background-color: #60B842;
     color: white;
     border: none;
-    font-size: 3ex;
-    padding: 0 1em 0 1em;
+    font-size: 2ex;
+    padding: .5em 5em .5em 5em;
+    border-radius: .5ex;
+    margin: auto 2em auto 2em;
 
 
   }
   .clicky:hover{
     cursor: pointer;
   }
-
-   {
+   li {
     list-style: none;
-    display: inline-block;
+    display: table-cell;
+    padding: 1ex 3em 1ex 3em;
   }
-} 
+  .placeHold{
+    font: 2ex black;
+    padding: 0 1em 0 1em;
+  }
+
+  .placeholders{
+    font: 1ex lightgrey;
+    padding: 0 2em 0 5em;
+    text-align: center;
+  }
+}
