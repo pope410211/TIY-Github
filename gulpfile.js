@@ -4,9 +4,9 @@ var gulp = require('gulp')
 var sass = require('gulp-sass')
 
 gulp.task('styles', function() {
-    gulp.src('/src/css/custom.scss')
+    gulp.src('./src/**/*.scss')
         .pipe(sass({
             errLogToConsole: true
         }))
-        .pipe(gulp.dest('/src/css/main.css'));
+        .pipe(gulp.dest('./css'));
 });

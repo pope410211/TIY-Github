@@ -1,0 +1,41 @@
+body {
+  font-size: 25px;
+  background: red; }
+
+#mobileT1 {
+  margin: 1em auto;
+  /*css tricks*/ }
+  #mobileT1 li {
+    text-align: center;
+    display: table-cell;
+    float: left;
+    list-style: none;
+    display: block;
+    font-size: .75em;
+    box-sizing: border-box;
+    border: .15em solid lightgrey;
+    width: 50%;
+    color: cornflowerblue;
+    /*padding: .5ex 0em .5ex 0em;*/ }
+  #mobileT1 .selected1 {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: .25em solid orange;
+    color: grey; }
+
+.img-mobile {
+  margin: auto; }
+
+.mobile-info {
+  list-style: none;
+  font-size: 1.5ex; }
+
+#tiTle-1 {
+  font-size: 5ex; }
+
+#tiTle-2 {
+  font-size: 2.25ex; }
+
+a:hover {
+  cursor: pointer; }
