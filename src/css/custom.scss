@@ -5,10 +5,9 @@ font-size: 25px;
 
 #mobileT1 {
   margin:1em auto; /*css tricks*/
-}
 
 
-#mobileT1 li{
+ li{
   text-align: center;
   display: table-cell;
   float: left;
@@ -21,15 +20,14 @@ font-size: 25px;
   color: cornflowerblue;
   /*padding: .5ex 0em .5ex 0em;*/
 }
-
-#mobileT1 .selected1 {
+.selected1 {
 border-bottom: none;
 border-left: none;
 border-right: none;
 border-top: .25em solid orange;
 color:grey;
 
-}
+}}
 
 .img-mobile {
 margin: auto;
