@@ -4,23 +4,33 @@ $.getJSON("../../api/github/users/octocat/octocat.json")
   .then(function(octocat) {
     console.log(octocat)
 
-    $avatar = $('img .profilePic')
+    $avatar = $('img#avatar')
     $avatar.attr('src', octocat.avatar_url);
 
     $displayName = $('#display')
-    $displayName.text(octocat.name)
+    $displayName.text(octocat.name);
 
     $userName = $('#useR')
-    $userName.text(octocat.login)
+    $userName.text(octocat.login);
 
     $orgaNization = $('#R')
-    $orgaNization.text(octocat.organizations_url)
+    $orgaNization.text(octocat.company);
 
     $locaL = $('#city')
     $locaL.text(octocat.location)
 
-    $userEmail = $('a, .Mailto')
-    $userEmail.attr('href', 'mailto:' + octocat.email)
+    $userEmail = $('a#Mailto')
+    $userEmail.attr('href', 'mailto:' + octocat.email);
+
+    $userMail = $('a#Mailto')
+    $userMail.text(octocat.email);
+
+    $userBlogSite = $('a#bLog')
+    $userBlogSite.attr('href', 'mailto:' + octocat.blog)
+
+    $userBlog = $('a#bLog')
+    $userBlog.text(octocat.blog)
+
 
   })
 
