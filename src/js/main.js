@@ -8,13 +8,13 @@ $.getJSON("../../api/github/users/octocat/octocat.json")
     $avatar.attr('src', octocat.avatar_url);
 
     $displayName = $('#display')
-    displayName.attr('src', octocat.name)
+    $displayName.attr('src', octocat.name)
 
     $userName = $('#useR')
-    userName.attr('src', octocat.login)
+    $userName.attr('src', octocat.login)
 
     $orgaNization = $('#R')
-    orgaNization.attr('src', octocat.organizations_url)
+    $orgaNization.attr('src', octocat.organizations_url)
   })
 
 
