@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "browser-sync start --server --files='src/js/*.js,src/test/index.html,src/test/spec/**/*.js' --startPath src/test/index.html",
+    "test": "browser-sync start --server --files='js/*.js,test/index.html,test/spec/**/*.js' --startPath src/test/index.html",
     "start": "browser-sync start --server --files='index.html, css/*.css, js/*.js' --startPath src/index.html",
     "bower:install": "bower install --save",
     "postbower:install": "wiredep --src src/index.html",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-sass": "^2.0.1",
-    "node-sass": "^3.1.2"
+    "node-sass": "^3.1.2",
+    "wiredep": "^2.2.2"
   }
 }
