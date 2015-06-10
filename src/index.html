@@ -6,9 +6,15 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
+
+        <!-- bower:css -->
+        <link rel="stylesheet" href="../bower_components/pure/pure.css" />
+=======
         <!-- bower:css -->
         <link rel="stylesheet" href="../bower_components/pure/pure.css" />
         <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
+>>>>>>> develop
         <!-- endbower -->
         <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css">
         <link rel="stylesheet" href="css/main.css">
@@ -24,26 +30,33 @@
           </ul>
         </nav>
       </div>
-      <div class="img-mobile">
-      <img src="img/mario-octocat.png" id="profilePic"></img>
-      </div>
-      <div class="mobile-pro-info">
-        <ul class="mobile-info">
-          <li id="tiTle-1">The Octocat</li>
-          <li id="tiTle-2">Octocat</li>
-          <li>Github</li>
-          <li>San Francisco</li>
-          <li><a href="mailto:octocat@github.com">email me</a></li>
-          <li><a href="https://github.com/blog">The Octocat Blog</a></li>
+      <div class="mobile-info">
+        <aside>
+        <ul class="propic">
+      <li><img src="../specs/mario-octocat.png" class="profilePic"></img></li>
+    </ul>
+  </aside>
+        <ul class="writ info">
+          <li id="display">{{octocat.name}}</li>
+          <li id="useR">{{octocat.login}}</li>
+          <li id="R">{{octocat.organizations_url}}</li>
+          <li id="city">{{octocat.location}}</li>
+          <li><a href="mailto:pope410211@gmail.com" class="Mailto">{{octocat.email}}</a></li>
+          <li><a href="https://github.com/blog">{{octocat.blog}}</a></li>
         </ul>
       </div>
       <div class="social-box">
-        <button> Follow </button>
+        <ul>
+        <li id="buttON"><button class="clicky"> Follow </button></li>
         <ul class="placeHold">
-        <li class="followers">1k</li>
-        <li class="starred"> 2 </li>
-        <li class="following">6</li>
+        <li class="followers">{{ocotocat.followers}}</li>
+        <li class="starred">{{ocotocat.starred_url}}</li>
+        <li class="following">{{ocotocat.following}}</li>
         </ul>
+        <ul class="placeholders">
+          <li>Followers</li>
+          <li> Starred </li>
+          <li> Following </li>
       </div>
       <div class="popRepo">
         <ul
