@@ -8,14 +8,23 @@ $.getJSON("../../api/github/users/octocat/octocat.json")
     $avatar.attr('src', octocat.avatar_url);
 
     $displayName = $('#display')
-    $displayName.attr('src', octocat.name)
+    $displayName.text(octocat.name)
 
     $userName = $('#useR')
-    $userName.attr('src', octocat.login)
+    $userName.text(octocat.login)
 
     $orgaNization = $('#R')
-    $orgaNization.attr('src', octocat.organizations_url)
+    $orgaNization.text(octocat.organizations_url)
+
+    $locaL = $('#city')
+    $locaL.text(octocat.location)
+
+    $userEmail = $('a, .Mailto')
+    $userEmail.attr('href', 'mailto:' + octocat.email)
+
   })
 
 
 })(window);
+
+// Reveiwed day work (5/9/15) as source.

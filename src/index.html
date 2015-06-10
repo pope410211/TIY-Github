@@ -30,21 +30,21 @@
     </ul>
   </aside>
         <ul class="writ info">
-          <li id="display">The Octocat</li>
-          <li id="useR">Octocat</li>
-          <li id="R">Github</li>
-          <li id="city">San Francisco</li>
-          <li><a href="mailto:pope410211@gmail.com">email me</a></li>
-          <li><a href="https://github.com/blog">The Octocat Blog</a></li>
+          <li id="display">{{octocat.name}}</li>
+          <li id="useR">{{octocat.login}}</li>
+          <li id="R">{{octocat.organizations_url}}</li>
+          <li id="city">{{octocat.location}}</li>
+          <li><a href="mailto:pope410211@gmail.com" class="Mailto">{{octocat.email}}</a></li>
+          <li><a href="https://github.com/blog">{{octocat.blog}}</a></li>
         </ul>
       </div>
       <div class="social-box">
         <ul>
         <li id="buttON"><button class="clicky"> Follow </button></li>
         <ul class="placeHold">
-        <li class="followers">1k</li>
-        <li class="starred"> 2 </li>
-        <li class="following">6</li>
+        <li class="followers">{{ocotocat.followers}}</li>
+        <li class="starred">{{ocotocat.starred_url}}</li>
+        <li class="following">{{ocotocat.following}}</li>
         </ul>
         <ul class="placeholders">
           <li>Followers</li>
