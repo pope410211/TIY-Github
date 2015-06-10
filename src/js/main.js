@@ -32,7 +32,7 @@ $.getJSON("../../api/github/users/octocat/octocat.json")
     $userBlog.text(octocat.blog)
 
 
-  })
+  });
 
 
 })(window);

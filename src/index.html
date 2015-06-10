@@ -11,11 +11,21 @@
         <link rel="stylesheet" href="../bower_components/pure/pure.css" />
         <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
         <!-- endbower -->
-        <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css">
+        <link rel="stylesheet" href="../bower_components/octicons/octicons/octicons.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+      <section class="grid">
+        <div class="unit">1</div>
+        <div class="unit">2</div>
+        <div class="unit">3</div>
+        <div class="unit">4</div>
+        <div class="unit">5</div>
+        <div class="unit">6</div>
+        <div class="unit">7</div>
+        <div class="unit">8</div>
+      </section><!--.grid-->
       <main class="container" id="mobileN1">
         <div>
         <nav class="mobile-navbar">
@@ -34,7 +44,7 @@
         <ul class="writ info">
           <li id="display">{{octocat.name}}</li>
           <li id="useR">{{octocat.login}}</li>
-          <li id="R">{{octocat.company}}</li>
+          <li class="octicon octicon-organization" id="R">{{octocat.company}}</li>
           <li id="city">{{octocat.location}}</li>
           <li><a href="mailto:pope410211@gmail.com" id="Mailto">{{octocat.email}}</a></li>
           <li><a href="https://github.com/blog" id="bLog">{{octocat.blog}}</a></li>
@@ -54,7 +64,13 @@
           <li> Following </li>
       </div>
       <div class="popRepo">
-        <ul
+        <ul>
+
+          <select>
+            <option>octocat</option>
+            <option>Pope410211</option>
+          </select>
+
       </main>
       <!-- bower:js -->
       <script src="../bower_components/jQuery/dist/jquery.js"></script>

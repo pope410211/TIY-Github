@@ -1,0 +1,20 @@
+.grid {
+
+  $grid-width: 100%;
+  max-width: 80%;
+  @extend .clearfix;
+  background-color: lightgrey;
+  outline: 2px solid red;
+  margin: 0 auto; /*centers the div*/
+  width: $grid-width;
+
+
+
+.unit {
+  background-color: grey;
+  outline: 2px solid blue;
+
+  float: left;
+  width: ($grid-width/8);
+ }
+}
