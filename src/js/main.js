@@ -26,7 +26,7 @@ $.getJSON("../../api/github/users/octocat/octocat.json")
     $userMail.text(octocat.email);
 
     $userBlogSite = $('a#bLog')
-    $userBlogSite.attr('href', 'mailto:' + octocat.blog)
+    $userBlogSite.attr('href', octocat.blog)
 
     $userBlog = $('a#bLog')
     $userBlog.text(octocat.blog)
