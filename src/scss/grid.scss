@@ -1,3 +1,8 @@
+.mobile {
+  max-width: 300em;
+  min-width: 20em;
+}
+
 .grid {
   $grid-width: 100%;
   @extend .clearfix;
@@ -16,15 +21,14 @@
    }
 
    .unit-span-2 {
-     width: ($grid-width/5) * 2;
+     width: ($grid-width/5);
      @extend .clearfix;
+     outline: 1px solid red;
      float: left;
+     display: inline-block;
 
-
-    div {
-
-       padding-right: 1ex;
-       padding-left: 1ex;
+       margin-right: 1ex;
+       padding-left: 2ex;
      }
-   }
+
 }
