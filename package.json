@@ -1,0 +1,29 @@
+{
+  "name": "TIY-Github",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "browser-sync start --server --files='js/*.js,test/index.html,test/spec/**/*.js' --startPath src/test/index.html",
+    "start": "browser-sync start --server --files='index.html, css/*.css, js/*.js' --startPath src/index.html",
+    "bower:install": "bower install --save",
+    "postbower:install": "wiredep --src src/index.html",
+    "sass": "node-sass src/scss/main.scss -o src/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pope410211/TIY-Github.git"
+  },
+  "author": "Nick Pope (pope410211)",
+  "license": "CCO",
+  "bugs": {
+    "url": "https://github.com/pope410211/TIY-Github/issues"
+  },
+  "homepage": "https://github.com/pope410211/TIY-Github",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.1",
+    "node-sass": "^3.1.2",
+    "wiredep": "^2.2.2"
+  }
+}
